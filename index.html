@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BASIC CALCULATOR</title>
+<script type="text/javascript" src="basiccalc.js"></script>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+	<h1>BASIC CALCULATOR</h1>
+	<form id="form">
+    <div id="opnd">
+    operand1:<input type="text" id="i1"> <br />
+    operand2:<input type="text" id="i2"> <br />
+    choose operator: <br/>
+</div>
+    <button type="button" id="b1" onclick="f1()">+</button>
+    <button type="button" id="b2" onclick="f2()">-</button> <br />
+    <button type="button" id="b3" onclick="f3()">*</button>
+    <button type="button" id="b4" onclick="f4()">/</button> <br />
+    <div id="finalop">
+    ANSWER:<output id="op"></output>
+</div>
+</form>
+</body>
+</html>
